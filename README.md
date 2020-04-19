@@ -2,10 +2,11 @@
 
 ![UCU](https://github.com/ucudal/PII_Conceptos_De_POO/raw/master/Assets/logo-ucu.png)
 
-# Encuentros futuros de la Tierra Media
 ### FIT - Universidad Católica del Uruguay
 
 <br>
+
+# Encuentros futuros de la Tierra Media
 
 En este juego, varios personajes cobrarán vida en la Tierra Media.
 
@@ -91,6 +92,3 @@ Justificar con comentarios en el código las decisiones que tomaron para resolve
 Deberán escribir casos de test para probar su programa. Como equipo tendrán que evaluar qué casos de test son necesarios, y deberán incluír la justificación de cada caso de test como comentario en el código del proyecto.
 
 Todos los integrantes del equipo deben participar de la escritura de tests (contribuyendo al menos uno de los casos). Deben trabajar en ramas del repositorio separadas (al igual que en la [Parte 2](#parte-2-creacion)) e integar el trabajo utilizando Pull Requests.
-
-
-
