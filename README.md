@@ -64,6 +64,8 @@ Sus items pueden además quitarse o cambiarse por otros similares (por ejemplo, 
 
 Los elementos tienen un valor de ataque y un valor de defensa. Es posible que en algunos casos alguno de estos valores sea 0. Por ejemplo, un elemento "Armadura" puede tener valor de ataque 0.
 
+> [Inspiración](https://ringsdb.com/find?q=t%3Aattachment)
+
 ### Projecto de C#
 
 Recuerden seguir la estructura de proyectos que utilizamos en el curso. Tienen disponible la guía de comandos [aquí](https://github.com/ucudal/PII_Comandos/blob/master/Proyecto_C%23.md).
@@ -91,4 +93,7 @@ Justificar con comentarios en el código las decisiones que tomaron para resolve
 
 Deberán escribir casos de test para probar su programa. Como equipo tendrán que evaluar qué casos de test son necesarios, y deberán incluír la justificación de cada caso de test como comentario en el código del proyecto.
 
-Todos los integrantes del equipo deben participar de la escritura de tests (contribuyendo al menos uno de los casos). Deben trabajar en ramas del repositorio separadas (al igual que en la [Parte 2](#parte-2-creacion)) e integar el trabajo utilizando Pull Requests.
+Todos los integrantes del equipo deben participar de la escritura de tests (contribuyendo al menos uno de los casos). Deben trabajar en ramas del repositorio separadas (al igual que en la [Parte 2](#parte-2-creación)) e integar el trabajo utilizando Pull Requests.
+
+
+
