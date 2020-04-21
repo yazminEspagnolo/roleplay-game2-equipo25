@@ -68,10 +68,6 @@ Los elementos tienen un valor de ataque y un valor de defensa. Es posible que en
 
 > [Inspiración](https://ringsdb.com/find?q=t%3Aattachment)
 
-### Projecto de C#
-
-Recuerden seguir la estructura de proyectos que utilizamos en el curso. Tienen disponible la guía de comandos [aquí](https://github.com/ucudal/PII_Comandos/blob/master/Proyecto_C%23.md).
-
 **Cada integrante debe trabajar en una rama distinta del repositorio.**
 
 Finalmente, integrar el código creado al repositorio utilizando [Pull Requests](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). 
