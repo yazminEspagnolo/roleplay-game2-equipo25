@@ -42,7 +42,7 @@ Cada equipo deberá crear un repo para el desarrollo de este juego. Todos los mi
 
 En equipo, modelen las clases y las colaboraciones que son necesarias para representar los elementos del juego mencioandos.
 
-Recuerden: los personajes deben poder tener items. Por ejemplo, los magos pueden tener un bastón mágico, un libro de hechizos, etc.
+Recuerden: los personajes deben poder tener items. Por ejemplo, los magos pueden tener un bastón mágico, un libro de hechizos (con hechizos), etc.
 
 Deberán crear y subir al repositorio el modelo en forma de diagrama de clases.
 
@@ -53,6 +53,8 @@ Cada equipo deberá crear las clases representadas en el modelo anterior. Cada i
 - Un personaje  🧙‍♂️
 
 - Dos elementos ⚔️ 🛡
+
+> Recuerden crear el libro de hechizos y sus hechizos (existe un solo _tipo_ de hechizo por ahora).
 
 ### Personajes
 
