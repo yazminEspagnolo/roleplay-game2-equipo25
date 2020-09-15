@@ -4,8 +4,6 @@
 
 ### FIT - Universidad Católica del Uruguay
 
-<br>
-
 # Encuentros futuros de la Tierra Media
 
 En este juego, varios personajes cobrarán vida en la Tierra Media.
