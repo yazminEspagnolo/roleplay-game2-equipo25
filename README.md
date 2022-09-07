@@ -66,11 +66,6 @@ Los elementos tienen un valor de ataque y un valor de defensa. Es posible que en
 
 > [Inspiración](https://ringsdb.com/find?q=t%3Aattachment)
 
-**Cada integrante debe trabajar en una rama distinta del repositorio.**
-
-Finalmente, integrar el código creado al repositorio utilizando [Pull Requests](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). 
->Recuerden: los Pull Requests deben ser revisados y aceptados por _otro_ integrante del equipo.
-
 ## Parte 3: Cobrando poder
 
 Agregar al proyecto el siguiente comportamiento:
