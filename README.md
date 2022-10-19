@@ -1,5 +1,5 @@
 Yazmin Espagnolo - Class Personajes, class mago
 
-Mateo Acosta
+Mateo Acosta - 
 
-Enzo Aparicio
+Enzo Aparicio - 
