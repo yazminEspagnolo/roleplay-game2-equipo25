@@ -55,7 +55,5 @@ namespace RoleplayGame
         {
             this.Vida = 100;
         }
-
-
     }
 }
