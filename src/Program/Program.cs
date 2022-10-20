@@ -31,7 +31,7 @@ namespace Program
             Console.WriteLine($"Gruñon tiene {gruñon.Vida} de vida");
 
 
-            Console.WriteLine($"Elfo ayuda a Gruñon con {elfo.Ataque}");
+            Console.WriteLine($"Elfo ayuda a Gruñon con {elfo.Vida}");
             gruñon.Curar();
             Console.WriteLine($"Gruñon tiene {gruñon.Vida} de vida restaurada");
         }

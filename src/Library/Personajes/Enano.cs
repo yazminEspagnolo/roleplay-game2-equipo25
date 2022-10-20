@@ -1,28 +1,24 @@
 using System.Collections.Generic;
 namespace RoleplayGame
 {
-    public class Enano
+    public class Enano : Personaje
     {
-        private int vida = 100;
+        public Hacha Hacha { get;  set; }
+        public Casco Casco { get;  set; }
+        public Escudo Escudo { get;  set; }
 
-        public Enano(string nombre)
+        public Enano(string nombre) : base(nombre)
         {
-            this.Nombre = nombre;
+            this.Hacha = new Hacha();
+            this.Casco = new Casco();
+            this.Escudo = new Escudo();
         }
 
-        public string Nombre { get; set; }
-
-        public Hacha Hacha { get; set; }
-
-        public Escudo Escudo { get; set; }
-
-        public Casco Casco { get; set; }
-
-        public int Ataque
+        public int Ataque 
         {
             get
             {
-                return Hacha.Ataque;
+                return Hacha.Ataque + Casco.Defensa;
             }
         }
 
@@ -30,33 +26,8 @@ namespace RoleplayGame
         {
             get
             {
-                return Escudo.Defensa + Casco.Defensa;
+                return Hacha.Ataque + Casco.Defensa;
             }
-        }
-
-        public int Vida
-        {
-            get
-            {
-                return this.vida;
-            }
-            private set
-            {
-                this.vida = value < 0 ? 0 : value;
-            }
-        }
-
-        public void OfensaDeAtaque(int power)
-        {
-            if (this.Defensa < power)
-            {
-                this.Vida -= power - this.Defensa;
-            }
-        }
-
-        public void Curar()
-        {
-            this.Vida = 100;
         }
     }
 }

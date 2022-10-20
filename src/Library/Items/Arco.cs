@@ -1,8 +1,8 @@
 namespace RoleplayGame
 {
-    public class Casco : Proteccion
+    public class Arco : Arma
     {
-        public int Defensa
+        public int Ataque
         {
             get
             {

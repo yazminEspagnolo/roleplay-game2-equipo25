@@ -1,11 +1,15 @@
 using System.Collections.Generic;
 namespace RoleplayGame
 {
-    public class Personajes
+    public class Personaje
     {
         private int vida = 100;
 
-        public Personajes(string nombre)
+        public int Defensa { get;}
+
+        public int Ataque { get;}
+
+        public Personaje(string nombre)
         {
             this.Nombre = nombre;
         }
@@ -39,76 +43,8 @@ namespace RoleplayGame
         }
     
     }
-    public class Mago : Personajes
-    {
-        public Mago(string nombre) : base(nombre)
-        {
-            this.LibroDeHechizos = new LibroDeHechizos();
-            this.BastonMagico = new BastonMagico();
-             public int Ataque
-        {
-            get
-            {
-                return LibroDeHechizos.Ataque + BastonMagico.Ataque;
-            }
-        }
-        public int Defensa
-        {
-            get
-            {
-                return LibroDeHechizos.Defensa + BastonMagico.Defensa;
-            }
-        }
 
-        }
-    }
 
-    public class Elfo : Personajes
-    {
-        public Elfo(string nombre) : base(nombre)
-        {
-            this.Arco = new Arco();
-            this.Capa = new Capa();
-            public int Ataque
-        {
-            get
-            {
-                return Arco.Ataque + Capa.Ataque;
-            }
-        }
-
-        public int Defensa
-        {
-            get
-            {
-                return Arco.Defensa + Capa.Defensa;
-            }
-        }
-        }
-    }
-
-    public class Enano : Personajes
-    {
-        public Enano(string nombre) : base(nombre)
-        {
-            this.Hacha = new Hacha();
-            this.Casco = new Casco();
-            public int Ataque
-        {
-            get
-            {
-                return Hacha.Ataque + Casco.Ataque;
-            }
-        }
-
-        public int Defensa
-        {
-            get
-            {
-                return Hacha.Defensa + Casco.Defensa;
-            }
-        }
-        }
-    }
+    
 }
 
